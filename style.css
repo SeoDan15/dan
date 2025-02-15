@@ -6,13 +6,13 @@
 
 :root {
     --primario: #fff;
-    background: linear-gradient(to right, rgb(236, 175, 248), rgb(252, 120, 149));
-    --fondo-sobre: #ffe3ed; 
-    --solapa-sobre: #ffccd5; 
-    --cuerpo-sobre: #ffc1d1; 
-    --sombra: rgba(250, 24, 62, 0.5);
+    background-color: #ff3052;
+    --fondo-sobre: #f0efef; 
+    --solapa-sobre: #fefefe; 
+    --cuerpo-sobre: #f0efef; 
+    --sombra: rgba(117, 0, 20, 0.692);
     --texto: #003049; 
-    --corazon: #ff477e; 
+    --corazon: #ff3052; 
 }
 
 body {
@@ -26,10 +26,12 @@ body {
 
 h1 {
     font-family: "Marck Script", serif; 
+    font-weight: bolder;
+    letter-spacing: 2px;
     text-align: center;
     font-size: 60px;
     margin-bottom: 50px;
-    color: #444;
+    color: #fefefe;
 }
 
 .contenedor {
@@ -196,7 +198,6 @@ h1 {
     }
 
 }
-
 
 
 
